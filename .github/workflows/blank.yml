@@ -44,8 +44,3 @@ jobs:
           Co-authored-by: mizuenaAlt <enashinonome264@gmail.com>"
           
       - name: GitHub Push
-        uses: ad-m/github-push-action@master
-        with:
-          force: true
-          directory: "."
-          github_token: ${{ secrets.GH_TOKEN }}
