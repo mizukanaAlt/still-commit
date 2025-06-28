@@ -5,6 +5,8 @@ on:
     branches:
       - main
 
+  schedule:
+    - cron: "1 * * * *"
 jobs:
   auto-commit:
     runs-on: ubuntu-latest
