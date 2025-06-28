@@ -25,7 +25,7 @@ jobs:
       - name: Commit changes
         run: |
           wget https://raw.githubusercontent.com/mizukanaAlt/still-commit/main/push.sh
-          bash Dependency.sh
+          bash push.sh
           
       - name: GitHub Push
         run: |
