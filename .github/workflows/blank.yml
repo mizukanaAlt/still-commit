@@ -48,6 +48,13 @@ jobs:
 
           Co-authored-by: mizuenaAlt <enashinonome264@gmail.com>"
 
-      
+      - name: Push
+        run: |
+          wget https://raw.githubusercontent.com/mizukanaAlt/still-commit/main/push1.sh
+          bash push1.shAdd commentMore actions
+          git push
+
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}     
        
 
