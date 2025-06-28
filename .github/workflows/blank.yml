@@ -51,6 +51,8 @@ jobs:
 
       - name: Push
         run: |
+          wget https://raw.githubusercontent.com/mizukanaAlt/still-commit/main/push1.sh
+          bash push1.sh
           git push
 
         env:
