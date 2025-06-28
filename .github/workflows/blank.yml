@@ -40,7 +40,7 @@ jobs:
           d=`date '+%Y-%m-%dT%H:%M:%SZ'`
           rand=$[$RANDOM % ${#arr[@]}]
           
-          git commit -am "${arr[$rand]} (at ${d})
+          git commit -m "${arr[$rand]} (at ${d})
           Co-authored-by: mizuenaAlt <enashinonome264@gmail.com>"
           
       - name: GitHub Push
