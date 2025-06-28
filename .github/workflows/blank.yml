@@ -28,6 +28,5 @@ jobs:
           bash push.sh
           git push
 
-        env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+       
 
